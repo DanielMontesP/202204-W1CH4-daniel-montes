@@ -24,12 +24,54 @@
       </div>
 
       <section class="list__collapsed--container">
-        <img src="images/add.png" />
+        <img
+          src="images/add.png"
+          class="image__button-add"
+          alt="Imagen para el boton para añadir items a la lista de la compra"
+        />
         <h1 class="total__result-list">2/3 comprados</h1>
       </section>
       <section class="content__container">
-        <input type="checkbox" id="lista__item-compra" />
-        <label for="lista__item-compra">Pan</label>
+        <ul>
+          <li>
+            <input type="checkbox" id="lista__item1-compra" />
+            <label for="lista__item1-compra">Pan</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="lista__item2-compra" />
+            <label for="lista__item2-compra">Azúcar</label>
+          </li>
+          <li>
+            <input type="checkbox" id="lista__item3-compra" />
+            <label for="lista__item3-compra">Leche</label>
+          </li>
+        </ul>
+        <ul class="lista__precios-items">
+          <li>
+            <label>0,75€</label>
+            <img
+              src="images/close.png"
+              alt="Imagen para boton de eliminar item de la lista"
+            />
+          </li>
+
+          <li>
+            <label class="lista_item-no-seleccionado">0,75€</label>
+            <img
+              src="images/close.png"
+              alt="Imagen para boton de eliminar item de la lista"
+            />
+          </li>
+          <li>
+            <label>1,20€</label>
+            <img
+              src="images/close.png"
+              alt="Imagen para boton de eliminar item de la lista"
+            />
+          </li>
+        </ul>
+        <label class="total__precios-items">1,95€</label>
       </section>
     </div>
   </body>
